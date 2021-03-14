@@ -33,5 +33,6 @@ flux create kustomization production \
 ```
 
 ```bash
-watch flux get sources git
+flux get sources git
+flux get kustomizations
 ```
