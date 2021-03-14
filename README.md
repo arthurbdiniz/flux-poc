@@ -12,3 +12,8 @@ flux create helmrelease stagin --source GitRepository/deploy --values=stagin-val
 ```bash
 flux create helmrelease production --source GitRepository/deploy --values=production-values.yaml --chart "helm" --target-namespace production --interval 30s --export
 ```
+
+
+```bash
+flux get helmreleases
+```
