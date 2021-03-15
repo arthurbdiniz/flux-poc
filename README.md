@@ -17,3 +17,7 @@ flux create helmrelease production --source GitRepository/deploy --values=produc
 ```bash
 flux get helmreleases
 ```
+
+## References
+
+- https://stackoverflow.com/questions/65789968/microk8s-metallb-ingress

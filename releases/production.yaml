@@ -13,6 +13,3 @@ spec:
         name: deploy
   interval: 30s
   targetNamespace: production
-  values:
-    image:
-      tag: 1.18.0
