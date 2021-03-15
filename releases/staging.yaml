@@ -21,4 +21,4 @@ spec:
         nginx.ingress.kubernetes.io/rewrite-target: /
       hosts:
         - host: test.arthurbdiniz.com
-          paths: ['/']
+          paths: ['/*']
