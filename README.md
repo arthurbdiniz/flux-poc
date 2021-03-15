@@ -21,3 +21,5 @@ flux get helmreleases
 ## References
 
 - https://stackoverflow.com/questions/65789968/microk8s-metallb-ingress
+- https://toolkit.fluxcd.io/components/helm/api/
+- https://microk8s.io/docs/addons#heading--list
