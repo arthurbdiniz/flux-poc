@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: hashicorp/http-echo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.18.0"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
