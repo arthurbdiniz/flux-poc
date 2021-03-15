@@ -14,8 +14,6 @@ spec:
   interval: 30s
   targetNamespace: staging
   values:
-    image:
-      tag: 1.18.0
     ingress:
       enabled: true
       annotations:
